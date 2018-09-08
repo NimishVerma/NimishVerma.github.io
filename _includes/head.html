@@ -1,6 +1,11 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:title" content="Nimish Verma" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://bigpythonimish.github.io/" />
+  <meta property="og:image" content="{{ "/assets/img/favicon.png" }}" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/png" href="{{ "/assets/img/favicon.png" }}" >
 
@@ -8,4 +13,5 @@
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+
 </head>
